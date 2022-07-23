@@ -126,6 +126,9 @@ nav {
     margin-bottom: 8rem;
     font-size: 3.8rem;
 }
+.banner-title:hover {
+    font-size: 4.5rem;
+}
 .banner-description {
     margin: 0 0 0 auto;
     width: 90%;
