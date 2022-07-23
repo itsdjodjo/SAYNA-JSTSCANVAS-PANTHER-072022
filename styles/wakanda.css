@@ -251,3 +251,26 @@ footer {
 .lienfooter:hover {
     text-decoration: underline;
 }
+.aside {
+    position: fixed;
+    top: 0;
+    height: 50vh;
+    left: 0.5rem;
+    border-left: 3px solid #9e91b7;
+    display: flex;
+    flex-direction: column;
+}
+.aside-line {
+    height: 100%;
+    border-right: 3px solid #9e91b7;
+}
+.aside-socials {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.5rem 0 0 0.2rem;
+    margin-right: -0.5rem;
+}
+.aside-socials a:hover {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(89%) saturate(0%) hue-rotate(235deg) brightness(104%) contrast(101%);
+}
