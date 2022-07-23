@@ -104,14 +104,20 @@ nav {
 .banner-title {
     font-family: "Beyno";
     color: var(--gris);
-    font-size: 4.25rem;
+    font-size: 68px;
     font-weight: 300;
+}
+.banner-title:hover {
+    font-size: 78px;
 }
 .banner-subtitle {
     font-family: "Wakanda forever";
     color: var(--gris);
-    font-size: 2.688rem;
+    font-size: 43px;
     margin-top: 0.5rem;
+}
+.banner-subtitle:hover {
+    font-size: 53px;
 }
 .banner-text p {
     width: 35%;
@@ -168,22 +174,9 @@ nav {
     margin-top: 3rem;
     margin-bottom: 2rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.wakanda-img:hover {
+    transform: scale(1.2);
+}
 
 
 /* FOOTER */
