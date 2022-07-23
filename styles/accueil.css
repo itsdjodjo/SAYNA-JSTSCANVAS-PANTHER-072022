@@ -93,7 +93,7 @@ nav {
 .h2 {
     font-family: 'Beyno';
     color: var(--gris);
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 .banner {
     display: flex;
@@ -117,7 +117,13 @@ nav {
 .banner-text h1 {
     font-family: 'Panthera';
     color: var(--gris);
-    font-size: 2.8rem;
+    font-size: 4.25rem;
+}
+.banner-text h1:hover {
+    font-size: 4.75rem;
+}
+.banner-text h2:hover {
+    font-size: 2.625rem;
 }
 .banner-img {
     width: 70%;
@@ -211,6 +217,9 @@ nav {
 .prince-photo img {
     width: 100%;
 }
+.prince-photo img:hover {
+    transform: scale(1.2);
+}
 .fiche-text {
     background-color: var(--white);
     border-radius: 0.8rem;
@@ -249,10 +258,14 @@ nav {
     justify-content: space-between;
 }
 #panther-costume {
-    padding: 20% 25% 0% 25%;
+    padding-top: 15%;
 }
 #panther-costume img {
-    width: 100%;
+    width: 509px;
+    height: 435px;
+}
+#panther-costume img:hover {
+    transform: scale(1.3);
 }
 /* Fin section Prince */
 
