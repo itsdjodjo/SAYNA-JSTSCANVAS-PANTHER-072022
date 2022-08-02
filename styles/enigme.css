@@ -294,3 +294,29 @@ footer {
 .aside-socials a:hover {
     filter: brightness(0) saturate(100%) invert(100%) sepia(89%) saturate(0%) hue-rotate(235deg) brightness(104%) contrast(101%);
 }
+
+/* Fade In */
+.fade-in {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: 200ms ease-in transform,
+                200ms ease-in opacity;
+}
+.show-content {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.fade {
+    animation: fadeIn 1s;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
